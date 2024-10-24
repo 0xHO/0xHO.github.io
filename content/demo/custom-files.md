@@ -3,8 +3,8 @@ title: "支持用户自定义设计"
 description: "用户可以通过自定义文件配置，实现对站点的样式和布局进行个性化的调整。"
 keywords: "custom,files,layout"
 
-date: 2022-09-10T21:02:32+08:00
-lastmod: 2022-09-10T21:02:32+08:00
+date: 2024-10-24T21:02:32+08:00
+lastmod: 2024-10-24T21:02:32+08:00
 
 categories:
   - 示例文章

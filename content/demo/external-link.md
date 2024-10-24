@@ -3,8 +3,8 @@ title: "欢迎加入 Hugo NexT 组织！"
 description: "Hugo NexT 是专门为 Hugo 引擎所打造的主题，保持简单易用和强大的功能！"
 keywords: "Hugo,NexT,组织"
 
-date: 2022-06-01T15:59:41+08:00
-lastmod: 2022-06-01T15:59:41+08:00
+date: 2024-10-24T15:59:41+08:00
+lastmod: 2024-10-24T15:59:41+08:00
 
 categories:
  - 示例文章

@@ -3,8 +3,8 @@ title: "文章目录导航"
 description: "描述下 NexT 主题下的文章目录导航效果。"
 keywords: "文章,目录,导航"
 
-date: 2022-06-08T21:12:52+08:00
-lastmod: 2022-06-08T21:12:52+08:00
+date: 2024-10-24T21:12:52+08:00
+lastmod: 2024-10-24T21:12:52+08:00
 
 categories:
  - 示例文章
@@ -21,7 +21,7 @@ slug: table-of-content
 
 <!--more-->
 
-![禇老](https://wfqqreader-1252317822.image.myqcloud.com/cover/568/814568/t6_814568.jpg)
+![禇老](//wfqqreader-1252317822.image.myqcloud.com/cover/568/814568/t6_814568.jpg)
 
 ## 早年的故事
 

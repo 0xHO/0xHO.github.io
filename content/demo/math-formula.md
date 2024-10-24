@@ -3,8 +3,8 @@ title: "数学公式渲染"
 description: "主题支持mathjs和katex两种不同插件的数学公式渲染方案。"
 keywords: "math,formula"
 
-date: 2022-09-11T10:16:02+08:00
-lastmod: 2022-09-11T10:16:02+08:00
+date: 2024-10-24T10:16:02+08:00
+lastmod: 2024-10-24T10:16:02+08:00
 
 categories:
   - 第三方引入
