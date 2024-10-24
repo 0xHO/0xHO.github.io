@@ -12,11 +12,11 @@
   <title>404 - 对不起，您查找的页面不存在 - {{ .Site.Title }}</title>
 </head>
 
-<body onclick="window.location.href='/'"
+<body onclick="window.location.href='{{ .Site.BaseURL }}'"
   style="margin: 0; padding: 0; height: 100%; width: 100%; background-color:#262a30">
   <script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8"
-    homePageUrl="/" homePageName="返回 {{ .Site.Title }} 主页"></script>
-  <div class="back_home_box">
+    homePageUrl="{{ .Site.BaseURL }}" homePageName="返回 {{ .Site.Title }} 主页"></script>
+  <h1>
     <a href="{{ .Site.BaseURL }}" class="btn btn-primary btn_blue">返回 {{ .Site.Title }} 主页</a>
-  </div>
+  </h1>
 </body>

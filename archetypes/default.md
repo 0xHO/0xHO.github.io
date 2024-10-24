@@ -1,16 +1,17 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .Name '-' ' '}}"
 description: "{{ .Name }}"
-keywords: "{{replace .Name "-" "," " "}}"
+keywords: "{{ replace .Name '-' ' ' }}"
 
 date: {{ .Date }}
 lastmod: {{ .Date }}
 
 categories:
   -
+
 tags:
   -
-  -
+
 # 原文作者
 #author:
 # 原文链接
@@ -26,18 +27,20 @@ tags:
 #  enable: false
 # 关闭文章目录功能
 #toc: false
-# 文章id，用于生成url时使用
-# slug: my-first-post
+# 文章地址参数
+slug: {{ md5 .Name }}
 # 绝对访问路径
 #url: "{{ lower .Name }}.html"
 # 开启文章置顶，数字越小越靠前
-#weight: 1
+# weight: 100
 # 开启数学公式渲染，可选值： mathjax, katex
 #math: mathjax
 # 开启各种图渲染，如流程图、时序图、类图等
 #mermaid: true
 ---
 
-{{ .Name }}
+summary:
 
 <!--more-->
+
+## 文章正文

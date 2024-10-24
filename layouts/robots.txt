@@ -11,5 +11,6 @@ Disallow: /css/
 Disallow: /imgs/
 Disallow: /js/
 Disallow: /statics/
+Disallow: /demo/
 Crawl-delay: 10
 Sitemap: {{ .Site.BaseURL }}sitemap.xml

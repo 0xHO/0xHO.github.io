@@ -7,7 +7,7 @@
 # ---------------------------------------------------------------
 
 # 站点域名，比如： https://hugo-next.eu.org
-baseURL: https://blog.97md.net
+baseURL: https://blog.97md.net/
 # 站点标题
 title: 飞越梦想
 # 主题名称
@@ -23,11 +23,11 @@ pagination:
 # 开启支持 Emoji 表情符号
 enableEmoji: true
 contentDir: content
-# 生成包含.html的文章链接
-uglyURLs: true
+# 生成 带.html 的文章链接
+# uglyURLs: true
 # # 文章链接格式
-# permalinks:
-#   posts: :year/:month-:day/:slug/
+permalinks:
+  post: post/:year/:slug
 # 让 Makedown 文档支持 HTML 语法，高亮，文章目录等功能
 markup:
   goldmark:
@@ -112,17 +112,17 @@ menus:
       weight: 2
     - identifier: categories
       name: 分类栏目
-      pageref: /categories.html
+      pageref: /categories/
       pre: list
       weight: 3
     - identifier: tags
       name: 标签集锦
-      pageref: /tags.html
+      pageref: /tags/
       pre: tags
       weight: 4
     - identifier: archives
       name: 归档
-      pageref: /archives.html
+      pageref: /archives
       pre: archive
       weight: 5
     # - identifier: commonweal
