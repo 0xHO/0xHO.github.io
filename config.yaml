@@ -28,6 +28,7 @@ contentDir: content
 # # 文章链接格式
 permalinks:
   post: post/:year/:slug
+  demo: demo/:slug
 # 让 Makedown 文档支持 HTML 语法，高亮，文章目录等功能
 markup:
   goldmark:
@@ -140,7 +141,7 @@ menus:
 #-----------------------------------------
 params:
   # 需要显示文章的部分，即content目录下的文件夹名称
-  mainSections: ["post"]
+  mainSections: ["post","demo"]
   # 年，月，日及时间的格式化样式
   yearFormat: "2006"
   monthFormat: "01-02"
