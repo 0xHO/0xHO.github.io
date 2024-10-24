@@ -12,7 +12,7 @@ tags:
   - Hugo
   - 开始
 
-url: demo/hello-world.html
+slug: hello-world
 # toc: true
 # weight: 2
 ---

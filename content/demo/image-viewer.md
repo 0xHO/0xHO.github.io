@@ -14,7 +14,7 @@ tags:
   - 相册
   - 浏览
 
-url: "demo/image-viewer.html"
+slug: image-viewer
 # toc: false
 ---
 

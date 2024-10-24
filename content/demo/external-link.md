@@ -17,7 +17,7 @@ extlink: https://gitee.com/hugo-next/hugo-theme-next/
 #comment:
 # enable: false
 #toc: false
-url: "demo/external-link.html"
+slug: external-link
 # weight: 1
 ---
 

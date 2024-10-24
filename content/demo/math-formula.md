@@ -14,8 +14,7 @@ tags:
   - mathjax
   - katex
 
-
-url: "demo/math-formula.html"
+slug: math-formula
 math: mathjax
 ---
 

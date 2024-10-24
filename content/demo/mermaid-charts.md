@@ -13,7 +13,7 @@ tags:
   - 流程图
   - 时序图
 
-url: "demo/mermaid-charts.html"
+slug: mermaid-charts
 mermaid: true
 # toc: true
 ---
