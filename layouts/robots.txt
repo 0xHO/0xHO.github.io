@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.inc$
+Disallow: /*.css$
+Disallow: /*.png$
+Disallow: /*.svg$
+Disallow: /cgi-bin/
+Disallow: /3rd/
+Disallow: /css/
+Disallow: /imgs/
+Disallow: /js/
+Disallow: /statics/
+Crawl-delay: 10
+Sitemap: {{ .Site.BaseURL }}sitemap.xml

@@ -12,9 +12,10 @@ tags:
   - Hugo
   - 开始
 
-url: demo/hello-world.html
+# url: posts/hello-world.html
 toc: true
 weight: 2
+slug: hello-world
 ---
 
 > “使用 `weight` 关键字置顶文章。”
