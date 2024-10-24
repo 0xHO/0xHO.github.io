@@ -26,15 +26,15 @@ slug: image-viewer
 
 ## 动物
 
-![cute-scottish-fold-cat](/post/image-viewer/preview_cute-scottish-fold-cat.jpg)
-![scottish-fold-kitten](/post/image-viewer/preview_scottish-fold-kitten.jpg)
-![hourses](/post/image-viewer/preview_horses.jpg)
-![owl-family-background](/post/image-viewer/preview_owl-family-background.jpg)
+![cute-scottish-fold-cat](./image-viewer/preview_cute-scottish-fold-cat.jpg)
+![scottish-fold-kitten](./image-viewer/preview_scottish-fold-kitten.jpg)
+![hourses](./image-viewer/preview_horses.jpg)
+![owl-family-background](./image-viewer/preview_owl-family-background.jpg)
 
 ## 风景
 
-![luxury-resort-in-maldives](/post/image-viewer/preview_luxury-resort-in-maldives.jpg)
-![sea-shell](/post/image-viewer/preview_sea-shell.jpg)
-![the-arch-sunset](/post/image-viewer/preview_the-arch-sunset.jpg)
-![norway-autumn-landscape](/post/image-viewer/preview_norway-autumn-landscape.jpg)
+![luxury-resort-in-maldives](./image-viewer/preview_luxury-resort-in-maldives.jpg)
+![sea-shell](./image-viewer/preview_sea-shell.jpg)
+![the-arch-sunset](./image-viewer/preview_the-arch-sunset.jpg)
+![norway-autumn-landscape](./image-viewer/preview_norway-autumn-landscape.jpg)
 
