@@ -26,10 +26,18 @@ slug: image-viewer
 
 ## 动物
 
-![cute-scottish-fold-cat](/demo/image-viewer/preview_cute-scottish-fold-cat.jpg)
-![scottish-fold-kitten](/demo/image-viewer/preview_scottish-fold-kitten.jpg)
-![hourses](/demo/image-viewer/preview_horses.jpg)
-![owl-family-background](/demo/image-viewer/preview_owl-family-background.jpg)
+<!-- ![cute-scottish-fold-cat](/demo/image-viewer/preview_cute-scottish-fold-cat.jpg) -->
+{{ $image := .Resources.GetMatch "image-viewer/preview_cute-scottish-fold-cat.jpg" }}
+![cute-scottish-fold-cat]({{ $image.RelPermalink }})
+<!-- ![scottish-fold-kitten](/demo/image-viewer/preview_scottish-fold-kitten.jpg) -->
+{{ $image := .Resources.GetMatch "image-viewer/preview_scottish-fold-kitten.jpg" }}
+![scottish-fold-kitten]({{ $image.RelPermalink }})
+<!-- ![hourses](/demo/image-viewer/preview_horses.jpg) -->
+{{ $image := .Resources.GetMatch "image-viewer/preview_cute-scottish-fold-cat.jpg" }}
+![hourses]({{ $image.RelPermalink }})
+<!-- ![owl-family-background](/demo/image-viewer/preview_owl-family-background.jpg) -->
+{{ $image := .Resources.GetMatch "image-viewer/preview_cute-scottish-fold-cat.jpg" }}
+![owl-family-background]({{ $image.RelPermalink }})
 
 ## 风景
 
