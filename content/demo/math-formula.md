@@ -38,12 +38,19 @@ math: mathjax
 
 
 ### 重复的分数
+```mathjax
+\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} \equiv 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }
+
+```
 $$
 \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} \equiv 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }
 $$
 
 
 ### 总和记号
+```mathjax
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
 $$
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 $$
@@ -52,26 +59,44 @@ $$
 ### 几何级数之和
 我把接下来的两个例子分成了几行，这样它在手机上表现得更好。这就是为什么它们包含 `\displaystyle`。或者可使用类似 `\displaylines{x = a + b \\\ y = b + c}` 语法进行截断，具体信息可见：[mathjax-issues2312](https://github.com/mathjax/MathJax/issues/2312)
 
+```mathjax
+\displaystyle\sum_{i=1}^{k+1}i
+```
 $$
 \displaystyle\sum_{i=1}^{k+1}i
 $$
 
+```mathjax
+\displaystyle= \left(\sum_{i=1}^{k}i\right) +(k+1)
+```
 $$
 \displaystyle= \left(\sum_{i=1}^{k}i\right) +(k+1)
 $$
 
+```mathjax
+\displaystyle= \frac{k(k+1)}{2}+k+1
+```
 $$
 \displaystyle= \frac{k(k+1)}{2}+k+1
 $$
 
+```mathjax
+\displaystyle= \frac{k(k+1)+2(k+1)}{2}
+```
 $$
 \displaystyle= \frac{k(k+1)+2(k+1)}{2}
 $$
 
+```mathjax
+\displaystyle= \frac{(k+1)(k+2)}{2}
+```
 $$
 \displaystyle= \frac{(k+1)(k+2)}{2}
 $$
 
+```mathjax
+\displaystyle= \frac{(k+1)((k+1)+1)}{2}
+```
 $$
 \displaystyle= \frac{(k+1)((k+1)+1)}{2}
 $$
