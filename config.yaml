@@ -423,7 +423,7 @@ params:
   # 文章的在线编辑
   postEdit:
     enable: true
-    url: https://github.com/0xHO/0xHO.github.io/tree/hugo/
+    url: https://github.com/0xHO/0xHO.github.io/tree/hugo/content/
 
 
   # 设置文本的对齐方式
