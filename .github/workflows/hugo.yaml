@@ -32,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      HUGO_VERSION: 0.136.5
     steps:
       - name: 安装Hugo CLI
         run: |
@@ -56,10 +56,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "https://0xho.github.io/"          
+          hugo --gc --minify --baseURL "https://0xho.github.io/"          
       - name: 上传构建产物
         uses: actions/upload-pages-artifact@v2
         with:
