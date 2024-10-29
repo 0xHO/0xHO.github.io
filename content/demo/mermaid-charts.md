@@ -36,13 +36,13 @@ mermaid: true
 ## 流程图
 
 ```txt
-{{< mermaid align="left" >}}
+{{< /* mermaid */ align="left" >}}
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-{{< /mermaid >}}
+{{< //* mermaid */ >}}
 ```
 
 {{< mermaid align="left" >}}
@@ -56,7 +56,7 @@ graph TD;
 ## 时序图
 
 ```txt
-{{< mermaid bc="#eee" >}}
+{{< /* mermaid */ bc="#eee" >}}
 sequenceDiagram
     participant Alice
     participant Bob
@@ -68,7 +68,7 @@ sequenceDiagram
     John-->>Alice: Great!
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
-{{< /mermaid >}}
+{{< //* mermaid */ >}}
 ```
 
 {{< mermaid bc="#eee" >}}
@@ -88,7 +88,7 @@ sequenceDiagram
 ## 类图
 
 ```txt
-{{< mermaid >}}
+{{< /* mermaid */ >}}
 classDiagram
 Class01 <|-- AveryLongClass : Cool
 Class03 *-- Class04
@@ -103,7 +103,7 @@ Class01 : size()
 Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool label
-{{< /mermaid >}}
+{{< //* mermaid */ >}}
 ```
 
 {{< mermaid >}}
@@ -126,7 +126,7 @@ Class08 <--> C2: Cool label
 ## 甘特图
 
 ```txt
-{{< mermaid >}}
+{{< /* mermaid */ >}}
 gantt
 dateFormat  YYYY-MM-DD
 title Adding GANTT diagram to mermaid
@@ -137,7 +137,7 @@ Completed task            :done,    des1, 2014-01-06,2014-01-08
 Active task               :active,  des2, 2014-01-09, 3d
 Future task               :         des3, after des2, 5d
 Future task2               :         des4, after des3, 5d
-{{< /mermaid >}}
+{{< //* mermaid */ >}}
 ```
 
 {{< mermaid >}}
@@ -156,12 +156,12 @@ Future task2               :         des4, after des3, 5d
 ## 实体关系图
 
 ```txt
-{{< mermaid >}}
+{{< /* mermaid */ >}}
 erDiagram
     CUSTOMER ||--o{ ORDER : places
     ORDER ||--|{ LINE-ITEM : contains
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
-{{< /mermaid >}}
+{{< //* mermaid */ >}}
 ```
 
 {{< mermaid >}}
@@ -174,7 +174,7 @@ erDiagram
 ## 用户旅程
 
 ```txt
-{{< mermaid >}}
+{{< /* mermaid */ >}}
 journey
     title My working day
     section Go to work
@@ -184,7 +184,7 @@ journey
     section Go home
       Go downstairs: 5: Me
       Sit down: 5: Me
-{{< /mermaid >}}
+{{< //* mermaid */ >}}
 ```
 
 {{< mermaid >}}
