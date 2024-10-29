@@ -149,7 +149,7 @@ params:
   darkmode: true
   # 站点基本信息
   author: zxing
-  subtitle: 小码农的小菜园
+  subtitle: 老码农的小菜园
   description: 保持简单的易用性和强大的功能。
   keywords: Hugo,NexT,主题,简单,强大
 
@@ -416,11 +416,13 @@ params:
     #channel0: Twitter || https://twitter.com/username || fab fa-twitter
     #channel1: Telegram || https://t.me/channel_name || fab fa-telegram
     #channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
-    #channel3: RSS || /atom.xml || fa fa-rss
+    #channel0: RSS || /rss.xml || fa fa-rss
+    channel0: blog || https://blog.97md.net/ || fab fa-globe
+    channel1: RSS || /rss.xml || fa fa-rss
 
   # 文章的在线编辑
   postEdit:
-    enable: false
+    enable: true
     url: https://github.com/0xHO/0xHO.github.io/tree/hugo/
 
 
