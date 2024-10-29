@@ -417,7 +417,7 @@ params:
     #channel1: Telegram || https://t.me/channel_name || fab fa-telegram
     #channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
     #channel0: RSS || /rss.xml || fa fa-rss
-    channel0: blog || https://blog.97md.net/ || fab fa-globe
+    channel0: blog || https://blog.97md.net/ || fab fa-blog
     channel1: RSS || /rss.xml || fa fa-rss
 
   # 文章的在线编辑
